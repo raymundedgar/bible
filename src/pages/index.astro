@@ -1,0 +1,42 @@
+---
+import Base from "../layouts/Base.astro";
+
+export const prerender = true;
+---
+
+<Base
+  title="Free Bible Companion"
+  description="Share what you are going through and discover encouragement from Scripture."
+>
+  <header class="bar">
+    <p class="brand">Bible</p>
+    <a href="/privacy">Privacy</a>
+  </header>
+  <main id="content" class="home">
+    <section id="ask">
+      <h1>What are you going through?</h1>
+      <form id="ask-form" class="composer">
+        <label class="visually-hidden" for="situation">Your situation</label>
+        <textarea
+          id="situation"
+          name="situation"
+          rows="3"
+          maxlength="1500"
+          required
+          placeholder="Share what's on your heart"
+        ></textarea>
+        <div class="ask-row">
+          <p id="count" class="count">0 / 1,500</p>
+          <button id="submit" type="submit">Find a verse</button>
+        </div>
+        <p id="form-error" class="form-error" role="alert" hidden></p>
+        <p class="privacy-note">Not saved here. When AI is on, your message is sent to Google Gemini. Scripture is the World English Bible, Catholic edition.</p>
+      </form>
+    </section>
+    <section id="results" class="results" aria-live="polite" hidden></section>
+  </main>
+</Base>
+
+<script>
+  import "../scripts/app.ts";
+</script>

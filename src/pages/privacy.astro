@@ -1,0 +1,39 @@
+---
+import Base from "../layouts/Base.astro";
+
+export const prerender = true;
+---
+
+<Base
+  title="Privacy — Free Bible Companion"
+  description="How Free Bible Companion handles what you write."
+>
+  <main id="content" class="reading">
+    <p class="kicker">Privacy</p>
+    <h1>Your message is not saved</h1>
+    <p>
+      Free Bible Companion does not ask you to create an account. The situation you type is used to find passages and, when AI explanations are turned on, to write a short reflection. It is not stored in this app's database, because the app does not have one.
+    </p>
+    <h2>What is sent</h2>
+    <p>
+      Your message is sent to this app's server so it can match themes and request verse text. Verse text is loaded from the Free Use Bible API for the World English Bible, Catholic edition (<code>eng_webc</code>). That request does not include what you wrote.
+    </p>
+    <p>
+      When AI explanations are on, your message and the already verified passage text are sent to Google's Gemini API to write the reflection. On Gemini's free tier, Google says submitted content may be used to improve its products. If AI is off, over the free quota, or the request fails, the app shows a reflection that was written ahead of time. Crisis messages are not sent to Gemini. They are answered with support resources first.
+    </p>
+    <h2>What is not collected</h2>
+    <p>
+      The app does not use analytics. Server logs record only whether a request succeeded, whether AI was used, whether a support notice was shown, how many passages were returned, and how long it took. They do not record the words you typed.
+    </p>
+    <h2>Your device</h2>
+    <p>
+      A service worker may store the app shell and public pages so an offline visit can show a fallback page. Recommendations and AI reflections are not cached. You can remove the installed app, or clear this site's data, in your browser settings.
+    </p>
+    <h2>Scripture</h2>
+    <p>
+      Scripture is the World English Bible, Catholic edition, which is in the public domain. The text is fetched from
+      <a href="https://bible.helloao.org/docs/">the Free Use Bible API</a>. Book names and chapter counts follow
+      <a href="https://bible.helloao.org/api/eng_webc/books.json">the eng_webc book list</a>.
+    </p>
+  </main>
+</Base>

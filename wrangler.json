@@ -1,0 +1,12 @@
+{
+  "name": "bible",
+  "compatibility_date": "2026-11-10",
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "AI_ENABLED": "true",
+    "AI_PROVIDER": "gemini",
+    "AI_MODEL": "gemini-3.5-flash-lite"
+  }
+}

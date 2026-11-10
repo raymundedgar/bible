@@ -1,0 +1,601 @@
+{
+  "source": "https://bible.helloao.org/api/eng_webc/books.json",
+  "translationId": "eng_webc",
+  "translationName": "World English Bible (Catholic)",
+  "shortName": "WEBC",
+  "verifiedOn": "2026-11-10",
+  "license": {
+    "attribution": "not-required",
+    "commercialUse": "allowed",
+    "derivatives": "allowed",
+    "copyleft": false,
+    "publicDomain": true
+  },
+  "licenseUrl": "https://ebible.org/Scriptures/details.php?id=eng-web-c",
+  "books": [
+    {
+      "id": "GEN",
+      "name": "Genesis",
+      "commonName": "Genesis",
+      "order": 1,
+      "numberOfChapters": 50,
+      "isApocryphal": false
+    },
+    {
+      "id": "EXO",
+      "name": "Exodus",
+      "commonName": "Exodus",
+      "order": 2,
+      "numberOfChapters": 40,
+      "isApocryphal": false
+    },
+    {
+      "id": "LEV",
+      "name": "Leviticus",
+      "commonName": "Leviticus",
+      "order": 3,
+      "numberOfChapters": 27,
+      "isApocryphal": false
+    },
+    {
+      "id": "NUM",
+      "name": "Numbers",
+      "commonName": "Numbers",
+      "order": 4,
+      "numberOfChapters": 36,
+      "isApocryphal": false
+    },
+    {
+      "id": "DEU",
+      "name": "Deuteronomy",
+      "commonName": "Deuteronomy",
+      "order": 5,
+      "numberOfChapters": 34,
+      "isApocryphal": false
+    },
+    {
+      "id": "JOS",
+      "name": "Joshua",
+      "commonName": "Joshua",
+      "order": 6,
+      "numberOfChapters": 24,
+      "isApocryphal": false
+    },
+    {
+      "id": "JDG",
+      "name": "Judges",
+      "commonName": "Judges",
+      "order": 7,
+      "numberOfChapters": 21,
+      "isApocryphal": false
+    },
+    {
+      "id": "RUT",
+      "name": "Ruth",
+      "commonName": "Ruth",
+      "order": 8,
+      "numberOfChapters": 4,
+      "isApocryphal": false
+    },
+    {
+      "id": "1SA",
+      "name": "1 Samuel",
+      "commonName": "1 Samuel",
+      "order": 9,
+      "numberOfChapters": 31,
+      "isApocryphal": false
+    },
+    {
+      "id": "2SA",
+      "name": "2 Samuel",
+      "commonName": "2 Samuel",
+      "order": 10,
+      "numberOfChapters": 24,
+      "isApocryphal": false
+    },
+    {
+      "id": "1KI",
+      "name": "1 Kings",
+      "commonName": "1 Kings",
+      "order": 11,
+      "numberOfChapters": 22,
+      "isApocryphal": false
+    },
+    {
+      "id": "2KI",
+      "name": "2 Kings",
+      "commonName": "2 Kings",
+      "order": 12,
+      "numberOfChapters": 25,
+      "isApocryphal": false
+    },
+    {
+      "id": "1CH",
+      "name": "1 Chronicles",
+      "commonName": "1 Chronicles",
+      "order": 13,
+      "numberOfChapters": 29,
+      "isApocryphal": false
+    },
+    {
+      "id": "2CH",
+      "name": "2 Chronicles",
+      "commonName": "2 Chronicles",
+      "order": 14,
+      "numberOfChapters": 36,
+      "isApocryphal": false
+    },
+    {
+      "id": "EZR",
+      "name": "Ezra",
+      "commonName": "Ezra",
+      "order": 15,
+      "numberOfChapters": 10,
+      "isApocryphal": false
+    },
+    {
+      "id": "NEH",
+      "name": "Nehemiah",
+      "commonName": "Nehemiah",
+      "order": 16,
+      "numberOfChapters": 13,
+      "isApocryphal": false
+    },
+    {
+      "id": "JOB",
+      "name": "Job",
+      "commonName": "Job",
+      "order": 18,
+      "numberOfChapters": 42,
+      "isApocryphal": false
+    },
+    {
+      "id": "PSA",
+      "name": "Psalms",
+      "commonName": "Psalms",
+      "order": 19,
+      "numberOfChapters": 150,
+      "isApocryphal": false
+    },
+    {
+      "id": "PRO",
+      "name": "Proverbs",
+      "commonName": "Proverbs",
+      "order": 20,
+      "numberOfChapters": 31,
+      "isApocryphal": false
+    },
+    {
+      "id": "ECC",
+      "name": "Ecclesiastes",
+      "commonName": "Ecclesiastes",
+      "order": 21,
+      "numberOfChapters": 12,
+      "isApocryphal": false
+    },
+    {
+      "id": "SNG",
+      "name": "Song of Solomon",
+      "commonName": "Song of Solomon",
+      "order": 22,
+      "numberOfChapters": 8,
+      "isApocryphal": false
+    },
+    {
+      "id": "ISA",
+      "name": "Isaiah",
+      "commonName": "Isaiah",
+      "order": 23,
+      "numberOfChapters": 66,
+      "isApocryphal": false
+    },
+    {
+      "id": "JER",
+      "name": "Jeremiah",
+      "commonName": "Jeremiah",
+      "order": 24,
+      "numberOfChapters": 52,
+      "isApocryphal": false
+    },
+    {
+      "id": "LAM",
+      "name": "Lamentations",
+      "commonName": "Lamentations",
+      "order": 25,
+      "numberOfChapters": 5,
+      "isApocryphal": false
+    },
+    {
+      "id": "EZK",
+      "name": "Ezekiel",
+      "commonName": "Ezekiel",
+      "order": 26,
+      "numberOfChapters": 48,
+      "isApocryphal": false
+    },
+    {
+      "id": "HOS",
+      "name": "Hosea",
+      "commonName": "Hosea",
+      "order": 28,
+      "numberOfChapters": 14,
+      "isApocryphal": false
+    },
+    {
+      "id": "JOL",
+      "name": "Joel",
+      "commonName": "Joel",
+      "order": 29,
+      "numberOfChapters": 3,
+      "isApocryphal": false
+    },
+    {
+      "id": "AMO",
+      "name": "Amos",
+      "commonName": "Amos",
+      "order": 30,
+      "numberOfChapters": 9,
+      "isApocryphal": false
+    },
+    {
+      "id": "OBA",
+      "name": "Obadiah",
+      "commonName": "Obadiah",
+      "order": 31,
+      "numberOfChapters": 1,
+      "isApocryphal": false
+    },
+    {
+      "id": "JON",
+      "name": "Jonah",
+      "commonName": "Jonah",
+      "order": 32,
+      "numberOfChapters": 4,
+      "isApocryphal": false
+    },
+    {
+      "id": "MIC",
+      "name": "Micah",
+      "commonName": "Micah",
+      "order": 33,
+      "numberOfChapters": 7,
+      "isApocryphal": false
+    },
+    {
+      "id": "NAM",
+      "name": "Nahum",
+      "commonName": "Nahum",
+      "order": 34,
+      "numberOfChapters": 3,
+      "isApocryphal": false
+    },
+    {
+      "id": "HAB",
+      "name": "Habakkuk",
+      "commonName": "Habakkuk",
+      "order": 35,
+      "numberOfChapters": 3,
+      "isApocryphal": false
+    },
+    {
+      "id": "ZEP",
+      "name": "Zephaniah",
+      "commonName": "Zephaniah",
+      "order": 36,
+      "numberOfChapters": 3,
+      "isApocryphal": false
+    },
+    {
+      "id": "HAG",
+      "name": "Haggai",
+      "commonName": "Haggai",
+      "order": 37,
+      "numberOfChapters": 2,
+      "isApocryphal": false
+    },
+    {
+      "id": "ZEC",
+      "name": "Zechariah",
+      "commonName": "Zechariah",
+      "order": 38,
+      "numberOfChapters": 14,
+      "isApocryphal": false
+    },
+    {
+      "id": "MAL",
+      "name": "Malachi",
+      "commonName": "Malachi",
+      "order": 39,
+      "numberOfChapters": 4,
+      "isApocryphal": false
+    },
+    {
+      "id": "MAT",
+      "name": "Matthew",
+      "commonName": "Matthew",
+      "order": 40,
+      "numberOfChapters": 28,
+      "isApocryphal": false
+    },
+    {
+      "id": "MRK",
+      "name": "Mark",
+      "commonName": "Mark",
+      "order": 41,
+      "numberOfChapters": 16,
+      "isApocryphal": false
+    },
+    {
+      "id": "LUK",
+      "name": "Luke",
+      "commonName": "Luke",
+      "order": 42,
+      "numberOfChapters": 24,
+      "isApocryphal": false
+    },
+    {
+      "id": "JHN",
+      "name": "John",
+      "commonName": "John",
+      "order": 43,
+      "numberOfChapters": 21,
+      "isApocryphal": false
+    },
+    {
+      "id": "ACT",
+      "name": "Acts",
+      "commonName": "Acts",
+      "order": 44,
+      "numberOfChapters": 28,
+      "isApocryphal": false
+    },
+    {
+      "id": "ROM",
+      "name": "Romans",
+      "commonName": "Romans",
+      "order": 45,
+      "numberOfChapters": 16,
+      "isApocryphal": false
+    },
+    {
+      "id": "1CO",
+      "name": "1 Corinthians",
+      "commonName": "1 Corinthians",
+      "order": 46,
+      "numberOfChapters": 16,
+      "isApocryphal": false
+    },
+    {
+      "id": "2CO",
+      "name": "2 Corinthians",
+      "commonName": "2 Corinthians",
+      "order": 47,
+      "numberOfChapters": 13,
+      "isApocryphal": false
+    },
+    {
+      "id": "GAL",
+      "name": "Galatians",
+      "commonName": "Galatians",
+      "order": 48,
+      "numberOfChapters": 6,
+      "isApocryphal": false
+    },
+    {
+      "id": "EPH",
+      "name": "Ephesians",
+      "commonName": "Ephesians",
+      "order": 49,
+      "numberOfChapters": 6,
+      "isApocryphal": false
+    },
+    {
+      "id": "PHP",
+      "name": "Philippians",
+      "commonName": "Philippians",
+      "order": 50,
+      "numberOfChapters": 4,
+      "isApocryphal": false
+    },
+    {
+      "id": "COL",
+      "name": "Colossians",
+      "commonName": "Colossians",
+      "order": 51,
+      "numberOfChapters": 4,
+      "isApocryphal": false
+    },
+    {
+      "id": "1TH",
+      "name": "1 Thessalonians",
+      "commonName": "1 Thessalonians",
+      "order": 52,
+      "numberOfChapters": 5,
+      "isApocryphal": false
+    },
+    {
+      "id": "2TH",
+      "name": "2 Thessalonians",
+      "commonName": "2 Thessalonians",
+      "order": 53,
+      "numberOfChapters": 3,
+      "isApocryphal": false
+    },
+    {
+      "id": "1TI",
+      "name": "1 Timothy",
+      "commonName": "1 Timothy",
+      "order": 54,
+      "numberOfChapters": 6,
+      "isApocryphal": false
+    },
+    {
+      "id": "2TI",
+      "name": "2 Timothy",
+      "commonName": "2 Timothy",
+      "order": 55,
+      "numberOfChapters": 4,
+      "isApocryphal": false
+    },
+    {
+      "id": "TIT",
+      "name": "Titus",
+      "commonName": "Titus",
+      "order": 56,
+      "numberOfChapters": 3,
+      "isApocryphal": false
+    },
+    {
+      "id": "PHM",
+      "name": "Philemon",
+      "commonName": "Philemon",
+      "order": 57,
+      "numberOfChapters": 1,
+      "isApocryphal": false
+    },
+    {
+      "id": "HEB",
+      "name": "Hebrews",
+      "commonName": "Hebrews",
+      "order": 58,
+      "numberOfChapters": 13,
+      "isApocryphal": false
+    },
+    {
+      "id": "JAS",
+      "name": "James",
+      "commonName": "James",
+      "order": 59,
+      "numberOfChapters": 5,
+      "isApocryphal": false
+    },
+    {
+      "id": "1PE",
+      "name": "1 Peter",
+      "commonName": "1 Peter",
+      "order": 60,
+      "numberOfChapters": 5,
+      "isApocryphal": false
+    },
+    {
+      "id": "2PE",
+      "name": "2 Peter",
+      "commonName": "2 Peter",
+      "order": 61,
+      "numberOfChapters": 3,
+      "isApocryphal": false
+    },
+    {
+      "id": "1JN",
+      "name": "1 John",
+      "commonName": "1 John",
+      "order": 62,
+      "numberOfChapters": 5,
+      "isApocryphal": false
+    },
+    {
+      "id": "2JN",
+      "name": "2 John",
+      "commonName": "2 John",
+      "order": 63,
+      "numberOfChapters": 1,
+      "isApocryphal": false
+    },
+    {
+      "id": "3JN",
+      "name": "3 John",
+      "commonName": "3 John",
+      "order": 64,
+      "numberOfChapters": 1,
+      "isApocryphal": false
+    },
+    {
+      "id": "JUD",
+      "name": "Jude",
+      "commonName": "Jude",
+      "order": 65,
+      "numberOfChapters": 1,
+      "isApocryphal": false
+    },
+    {
+      "id": "REV",
+      "name": "Revelation",
+      "commonName": "Revelation",
+      "order": 66,
+      "numberOfChapters": 22,
+      "isApocryphal": false
+    },
+    {
+      "id": "TOB",
+      "name": "Tobit",
+      "commonName": "Tobit",
+      "order": 67,
+      "numberOfChapters": 14,
+      "isApocryphal": true
+    },
+    {
+      "id": "JDT",
+      "name": "Judith",
+      "commonName": "Judith",
+      "order": 68,
+      "numberOfChapters": 16,
+      "isApocryphal": true
+    },
+    {
+      "id": "ESG",
+      "name": "Esther (Greek)",
+      "commonName": "Esther (Greek)",
+      "order": 69,
+      "numberOfChapters": 10,
+      "isApocryphal": true
+    },
+    {
+      "id": "WIS",
+      "name": "Wisdom of Solomon",
+      "commonName": "Wisdom of Solomon",
+      "order": 70,
+      "numberOfChapters": 19,
+      "isApocryphal": true
+    },
+    {
+      "id": "SIR",
+      "name": "Sirach",
+      "commonName": "Sirach",
+      "order": 71,
+      "numberOfChapters": 51,
+      "isApocryphal": true
+    },
+    {
+      "id": "BAR",
+      "name": "Baruch",
+      "commonName": "Baruch",
+      "order": 72,
+      "numberOfChapters": 6,
+      "isApocryphal": true
+    },
+    {
+      "id": "1MA",
+      "name": "1 Maccabees",
+      "commonName": "1 Maccabees",
+      "order": 77,
+      "numberOfChapters": 16,
+      "isApocryphal": true
+    },
+    {
+      "id": "2MA",
+      "name": "2 Maccabees",
+      "commonName": "2 Maccabees",
+      "order": 78,
+      "numberOfChapters": 15,
+      "isApocryphal": true
+    },
+    {
+      "id": "DAG",
+      "name": "Daniel (Greek)",
+      "commonName": "Daniel (Greek)",
+      "order": 90,
+      "numberOfChapters": 14,
+      "isApocryphal": true
+    }
+  ]
+}
